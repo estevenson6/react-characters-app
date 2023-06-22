@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  background-color: rgb(198, 219, 213);
+  padding: 40px;
+  margin: 0
 }
 
 .App-logo {
@@ -35,4 +38,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.character{
+  width: 20vw;
+  height:auto;
+}
+
+.character .card {
+  background-color: aliceblue;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px rgb(14, 139, 77);
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px -5px;
+  height: 200px;
+}
+
+.character .card:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 0px;
+}
+a { 
+  color: black;
+  padding: 5px
+}
+a .active{
+  color: rgb(204, 123, 2);
 }
